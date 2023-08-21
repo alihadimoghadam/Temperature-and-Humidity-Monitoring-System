@@ -30,12 +30,14 @@ The Temperature and Humidity Monitoring System is a Python program that reads da
 
 1. Clone or download this repository to your Raspberry Pi.
 
-```bash
-git clone https://github.com/yourusername/temperature-humidity-monitoring.git```
+```
+git clone https://github.com/yourusername/temperature-humidity-monitoring.git
+```
 
 1. Install the required Python libraries using pip.
-```bash
-pip install Adafruit_DHT requests```
+```
+pip install Adafruit_DHT requests
+```
 
 1. Connect the DHT22 sensor to the appropriate GPIO pin on your Raspberry Pi.
 
@@ -46,13 +48,13 @@ pip install Adafruit_DHT requests```
 ## Usage
 
 1. Navigate to the program directory.
-```bash
+```
 cd temperature-humidity-monitoring
-
+```
 2. Run the program.
-```bash
+```
 python T_H_Monitori.py
-
+```
 3. The program will continuously read data from the DHT22 sensor and send it to ThingSpeak for visualization.
 
 ## Configuration
@@ -62,11 +64,11 @@ DHT_SENSOR_TYPE: Set to Adafruit_DHT.DHT11 or Adafruit_DHT.DHT22 based on your s
 DHT_PIN: The GPIO pin connected to the DHT22 sensor.
 THINGSPEAK_API_KEY: Your ThingSpeak API key.
 
-```bash
+```
 DHT_SENSOR_TYPE = Adafruit_DHT.DHT22
 DHT_PIN = 4
 THINGSPEAK_API_KEY = "YOUR_THINGSPEAK_API_KEY"
-
+```
 # Contributing
 Contributions are welcome! If you find any issues or have suggestions, feel free to create an issue or a pull request in this repository.
 
