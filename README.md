@@ -31,8 +31,7 @@ The Temperature and Humidity Monitoring System is a Python program that reads da
 1. Clone or download this repository to your Raspberry Pi.
 
 ```
-git clone https://github.com/alihadimoghadam/Temperature-and-Humidity-Monitoring-System
-.git
+git clone https://github.com/alihadimoghadam/Temperature-and-Humidity-Monitoring-System.git
 ```
 
 1. Install the required Python libraries using pip.
