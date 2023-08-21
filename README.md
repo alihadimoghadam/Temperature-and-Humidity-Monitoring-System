@@ -31,11 +31,11 @@ The Temperature and Humidity Monitoring System is a Python program that reads da
 1. Clone or download this repository to your Raspberry Pi.
 
 ```bash
-git clone https://github.com/yourusername/temperature-humidity-monitoring.git
+git clone https://github.com/yourusername/temperature-humidity-monitoring.git```
 
 1. Install the required Python libraries using pip.
 ```bash
-pip install Adafruit_DHT requests
+pip install Adafruit_DHT requests```
 
 1. Connect the DHT22 sensor to the appropriate GPIO pin on your Raspberry Pi.
 
